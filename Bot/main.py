@@ -5,26 +5,14 @@ from random import choice
 
 import discord
 from discord.ext.commands.core import check
-import psycopg2 as ppg
 from discord.ext import commands
-from discord_slash import SlashCommand, SlashContext
-from discord_slash.utils.manage_commands import create_choice, create_option
 from dotenv import load_dotenv
 
 #Don't steal my token !!!
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-DATABASE_URL = os.getenv('DATABASE_URL')
-
-#database = ppg.connect(DATABASE_URL, sslmode='require')
-#database.set_session(autocommit=True)
-#cursor = database.cursor()
-#print(cursor.fetchall())
-#cursor.close()
 
 client = commands.Bot(command_prefix='r/', case_insensitive=True) 
-#Create client that responds to commands
-#slash = SlashCommand(client, sync_commands=True)
 
 #Open helpme.txt and make a string
 helpme_text = ""
