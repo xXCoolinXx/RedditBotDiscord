@@ -2,6 +2,13 @@
 Discord bot that pulls comments from a particular reddit user and allows them to be displayed upon user commands.
 
 <h2>
+Setup
+</h2>
+<p> In order to run the bot, you will first have to download the comments. Run <code>download.py</code> and copy the result into <code>/Bot/Data</code>. </p>
+<p> Next, create a <code>.env</code> file in <code>/Bot</code> and paste in <code>DISCORD_TOKEN="YOUR TOKEN HERE"</code>. Finally, your bot should be up and running. </p>
+
+
+<h2>
 Commands
 </h2>
 
