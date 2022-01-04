@@ -3,7 +3,7 @@ import requests
 import json
 from time import sleep
 
-user = "jacksparrowpenfan"
+user = input("Enter the reddit username: ")
 url = f"https://api.pushshift.io/reddit/search/comment/?author={user}&size=100"
 date_modifier = ""
 
