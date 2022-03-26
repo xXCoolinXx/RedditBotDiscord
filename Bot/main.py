@@ -204,7 +204,7 @@ async def subreddit(ctx, *args):
             await client.change_presence(activity=discord.Game("Reddit ● r/subreddit"))
 
 """
-#Add/look at quotes from Alex
+#Add/look at quotes from user
 @client.command()
 async def IRL(ctx, *args):
     if not args:
