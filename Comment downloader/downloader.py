@@ -24,7 +24,7 @@ while True:
 print(f"{count} requests made ")
 print(f"{len(comments_list)} comments loaded")
 
-with open("Data/comments.json", "w") as file:
+with open("../Bot/comments.json", "w") as file:
     print("Writing to file...")
     json.dump(comments_list, file, indent=4)
 

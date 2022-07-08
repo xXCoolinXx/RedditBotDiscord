@@ -26,7 +26,7 @@ sr_list = []
 subreddit_dict = {}
 #subreddit_dict["irl"] = []
 subreddit_dict["all"] = []
-with open("Data/comments.json") as file:
+with open("comments.json") as file:
     file_data = json.load(file)
 
     for comment in file_data:
