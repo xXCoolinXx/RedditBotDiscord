@@ -1,6 +1,9 @@
 # Discord Bot for Reddit comments
 Discord bot that pulls comments from a particular reddit user and allows them to be displayed upon user commands.
 
+## Archival
+This repository is now archived in solidarity with the protest against Reddit. Please consider using a Fediverse social media app instead, such as Lemmy or KBin.
+
 <h2>
 Setup
 </h2>
